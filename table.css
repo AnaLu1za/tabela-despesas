@@ -1,0 +1,34 @@
+/*Estilização da tabela*/
+
+table, td, th{
+    border: solid 1px black;
+    border-collapse: collapse;
+}
+td{
+    width: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+th{
+    height: 20px;
+    background-color: rgb(9, 112, 43);
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+}
+.ord{
+    width: 45px;
+}
+.valor{
+    text-align-last: right;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+tr:hover {background-color: rgb(219, 216, 210);}
+tr:nth-child(even) {background-color: #c4c4c4}
+
